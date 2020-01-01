@@ -1,19 +1,17 @@
 # Kmeans
 
-Benzer nesneleri birlikte gruplamayı zaten biliyorsunuz. Fikir çok basit olsa da, bu fikirden etkilenen kullanım durumlarının miktarı muazzamdır. Makine öğrenmesi literatüründe buna genellikle kümeleme denir — benzer nesneleri otomatik olarak aynı gruplara gruplandırır.
+Benzer nesneleri birlikte gruplamayı zaten biliyorsunuz. Fikir çok basit olsa da, bu fikirden etkilenen kullanım durumlarının miktarı harikadır. Makine öğrenmesi literatüründe buna genellikle kümeleme denir — benzer nesneleri otomatik olarak aynı gruplara gruplandırır.
 
 ## Clustering
 Kümeleme, verilerin yapısı hakkında bir sezgiyi elde etmek için kullanılan en yaygın keşifsel veri analizi tekniklerinden biridir. Farklı kümelerdeki veri noktaları çok farklıyken, aynı alt gruptaki (küme) veri noktalarının çok benzer olması nedeniyle verilerdeki alt grupların belirlenmesi görevi olarak tanımlanabilir. Bu yazıda, sadeliği nedeniyle en çok kullanılan kümeleme algoritmalarından biri olarak kabul edilen K-means algoritmasını ele alacağız.
 
 
-
-### K-Means’ı Nerede Uygulayabilirim?
+### K-Means’ı Nerede Uygulayabiliriz?
 Öncelikle bu algoritmayı nerelerde, hangi amaçlarda kullanabiliriz bunlara göz atalım. Bana göre bir algoritmayı incelemeye başlamadan önce onun neye hizmet ettiğini bilmek bizim çalışma verimimizi arttırır.
 →Belge Sınıflandırması
 Belgeleri etiketlere, konulara ve belgenin içeriğine göre birden fazla kategoride kümeleyin. Bu çok standart bir sınıflandırma problemidir ve k-means aracı bu amaç için oldukça uygun bir algoritmadır.
 →Suç Yerlerinin Belirlenmesi
-Bir şehirdeki belirli bölgelerde mevcut olan suçlarla ilgili veriler, suç kategorisi, suç alanı ve ikisi arasındaki ilişki, bir şehirdeki ya da bölgedeki suça eğilimli alanlara ilişkin kaliteli bilgiler verebilir. 
-gibi yerlerde kullanabiliriz.
+Bir şehirdeki belirli bölgelerde mevcut olan suçlarla ilgili veriler, suç kategorisi, suç alanı ve ikisi arasındaki ilişki, bir şehirdeki ya da bölgedeki suça eğilimli alanlara ilişkin kaliteli bilgiler verebilir.. gibi yerlerde kullanabiliriz.
 
 ### Denetimsiz Öğrenmenin(Unsupervised Learning) Anlamı:
 
